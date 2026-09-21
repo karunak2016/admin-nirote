@@ -36,7 +36,7 @@ export function Login() {
             <ShieldCheck className="h-7 w-7 text-white" />
           </div>
           <h1 className="text-2xl font-bold text-gray-900">Admin Login</h1>
-          <p className="mt-1 text-sm text-gray-500">Niroté â€” Staff Only</p>
+          <p className="mt-1 text-sm text-gray-500">Niroté — Staff Only</p>
         </div>
 
         <div className="rounded-xl border border-gray-200 bg-white p-8 shadow-sm">
