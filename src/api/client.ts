@@ -1,6 +1,6 @@
 import axios, { AxiosError, InternalAxiosRequestConfig } from 'axios'
 
-const _rawUrl = import.meta.env.VITE_API_URL ?? import.meta.env.VITE_API_BASE_URL ?? ''
+const _rawUrl = import.meta.env.VITE_API_URL ?? ''
 const BASE_URL = _rawUrl
   ? _rawUrl.replace(/\/+$/, '').replace(/\/api$/, '') + '/api'
   : '/api'
